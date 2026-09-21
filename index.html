@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tahmid Hasan | Digital Marketer | SEO, Google Ads & Meta Ads</title>
+  <meta name="description" content="Portfolio of Tahmid Hasan, a digital marketer specializing in SEO, Google Ads, Meta Ads, social media marketing and digital marketing strategy.">
+  <meta name="author" content="Tahmid Hasan">
+  <meta name="theme-color" content="#0b0d12">
+  <link rel="canonical" href="" id="canonical-link">
+
+  <meta property="og:title" content="Tahmid Hasan | Digital Marketer">
+  <meta property="og:description" content="Digital marketing portfolio focused on SEO, Google Ads, Meta Ads, social media marketing and strategy.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="" id="og-url">
+  <meta property="og:image" content="assets/images/profile.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tahmid Hasan | Digital Marketer">
+  <meta name="twitter:description" content="SEO • Google Ads • Meta Ads • Social Media Marketing">
+  <meta name="twitter:image" content="assets/images/profile.jpg">
+
+  <link rel="icon" href="assets/favicon/favicon.svg" type="image/svg+xml">
+
+  <script>
+    (function () {
+      try {
+        const saved = localStorage.getItem("tahmid-theme");
+        const preferred = saved || (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        document.documentElement.dataset.theme = preferred;
+      } catch (_) {}
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="preloader" id="preloader" aria-label="Loading portfolio">
+    <div class="preloader-inner">
+      <div class="preloader-logo">TH</div>
+      <div class="preloader-label">Digital Marketing Portfolio</div>
+      <div class="loader-line"><span></span></div>
+    </div>
+  </div>
+
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav-shell container" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Tahmid Hasan home">
+        <span class="brand-mark">TH</span>
+        <span class="brand-copy">
+          <strong data-config="NAME">Tahmid Hasan</strong>
+          <small>Digital Marketer</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="primaryNav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <div class="nav-actions">
+          <button class="icon-button theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark and light mode">
+            <span class="theme-icon" aria-hidden="true">☼</span>
+          </button>
+          <a class="btn btn-primary btn-sm" href="#contact">Let's Talk <span>↗</span></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home" aria-labelledby="hero-title">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-a" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-b" aria-hidden="true"></div>
+
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="pulse-dot"></span>Available for digital marketing projects</div>
+          <p class="hero-kicker">Hi, I'm <span data-config="NAME">Tahmid Hasan</span></p>
+          <h1 id="hero-title">Digital Marketing That Turns <span>Attention</span> Into Growth.</h1>
+          <p class="hero-subtitle">Digital Marketer specializing in SEO, Google Ads & Meta Ads.</p>
+          <p class="hero-description">
+            I'm a digital marketer with 2+ years of practical experience helping businesses improve their online presence through SEO, paid advertising, social media marketing and performance-focused digital strategies.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#services">View My Services <span>↘</span></a>
+            <a class="btn btn-secondary" href="#contact">Let's Work Together <span>→</span></a>
+          </div>
+
+          <div class="hero-meta">
+            <span>⌖ Kishoreganj, Bangladesh</span>
+            <span class="meta-divider"></span>
+            <span>2+ Years Experience</span>
+            <span class="meta-divider"></span>
+            <span>10+ Foreign Clients</span>
+          </div>
+
+          <div class="social-row" id="heroSocials" aria-label="Social links">
+            <!-- populated by config -->
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay">
+          <div class="visual-shell">
+            <div class="chart-lines" aria-hidden="true">
+              <i style="--h:36%"></i><i style="--h:58%"></i><i style="--h:46%"></i><i style="--h:72%"></i>
+              <i style="--h:62%"></i><i style="--h:84%"></i><i style="--h:76%"></i>
+            </div>
+            <div class="signal-card signal-card-top">
+              <span class="signal-dot"></span> Strategy-led marketing
+            </div>
+
+            <div class="profile-frame">
+              <div class="profile-ring">
+                <img data-profile-image src="assets/images/profile.png" alt="Tahmid Hasan profile photo" loading="eager" onerror="this.style.display='none'; this.nextElementSibling.hidden=false;">
+                <div class="profile-fallback" hidden>TH</div>
+              </div>
+              <div class="availability"><span></span> Available</div>
+            </div>
+
+            <div class="float-badge badge-seo">SEO <small>Search visibility</small></div>
+            <div class="float-badge badge-google">Google Ads <small>Paid search</small></div>
+            <div class="float-badge badge-meta">Meta Ads <small>Paid social</small></div>
+            <div class="float-badge badge-strategy">Digital Strategy <small>Growth planning</small></div>
+
+            <div class="mini-dashboard">
+              <div class="mini-top"><span>Marketing focus</span><strong>2026</strong></div>
+              <div class="mini-bars">
+                <span style="--v:72%"></span>
+                <span style="--v:54%"></span>
+                <span style="--v:85%"></span>
+                <span style="--v:66%"></span>
+                <span style="--v:92%"></span>
+              </div>
+              <div class="mini-legend"><span>Research</span><span>Launch</span><span>Optimize</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container two-col about-layout">
+        <div class="section-intro reveal">
+          <div class="section-label">About</div>
+          <h2 id="about-title">Digital Marketing With a Practical, Results-Focused Approach</h2>
+          <p>
+            I'm Tahmid Hasan, a digital marketer from Bangladesh with 2+ years of experience in digital marketing and experience working with foreign clients.
+          </p>
+          <p>
+            My main areas of focus include SEO, Google Ads, Meta Ads, Facebook advertising, social media marketing, lead generation and digital marketing strategy.
+          </p>
+          <p>
+            I enjoy understanding a business, identifying its marketing opportunities and creating practical digital strategies that help improve visibility, reach and customer acquisition.
+          </p>
+          <p>
+            I'm continuously learning new tools, advertising techniques and SEO strategies to stay up to date with the changing digital landscape.
+          </p>
+          <div class="about-actions">
+            <button class="text-button" id="copyEmail" type="button">Copy Email <span>⧉</span></button>
+            <span class="copy-feedback" id="copyFeedback" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+
+        <div class="info-grid reveal reveal-delay">
+          <article class="info-card">
+            <span class="info-icon">◷</span>
+            <small>Experience</small>
+            <strong>2+ Years</strong>
+            <span>Digital Marketing</span>
+          </article>
+          <article class="info-card">
+            <span class="info-icon">◎</span>
+            <small>Foreign Clients</small>
+            <strong>10+</strong>
+            <span>International experience</span>
+          </article>
+          <article class="info-card">
+            <span class="info-icon">⌖</span>
+            <small>Location</small>
+            <strong>Bangladesh</strong>
+            <span>Kishoreganj</span>
+          </article>
+          <article class="info-card">
+            <span class="info-icon">✦</span>
+            <small>Focus</small>
+            <strong>Digital Marketing</strong>
+            <span>SEO • Ads • Strategy</span>
+          </article>
+          <article class="info-card education-card">
+            <span class="info-icon">▣</span>
+            <small>Education</small>
+            <strong>SSC 2026</strong>
+            <span>Science Group · Azim Uddin High School · GPA 4.00</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <div class="section-label">Capabilities</div>
+          <h2 id="skills-title">My Digital Marketing Skills</h2>
+          <p>Focused capabilities for organic search, paid media, audience growth and marketing strategy.</p>
+        </div>
+
+        <div class="card-grid skill-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon">⌕</div>
+            <div class="card-heading"><h3>SEO</h3><span>Strong</span></div>
+            <ul>
+              <li>Keyword Research</li><li>On-Page SEO</li><li>Technical SEO Basics</li><li>Competitor Analysis</li>
+              <li>SEO Audits</li><li>Content Optimization</li><li>Search Intent Analysis</li><li>Website Optimization</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal reveal-delay-1">
+            <div class="skill-icon">Ads</div>
+            <div class="card-heading"><h3>Google Ads</h3><span>Practical Experience</span></div>
+            <ul>
+              <li>Search Ads</li><li>Display Ads</li><li>Campaign Setup</li><li>Keyword Research</li>
+              <li>Ad Copy</li><li>Conversion Tracking</li><li>Campaign Optimization</li><li>Google Ads Strategy</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal reveal-delay-2">
+            <div class="skill-icon">M</div>
+            <div class="card-heading"><h3>Meta Ads</h3><span>Practical Experience</span></div>
+            <ul>
+              <li>Facebook Ads</li><li>Instagram Ads</li><li>Campaign Setup</li><li>Audience Targeting</li>
+              <li>Retargeting</li><li>Ad Creative Strategy</li><li>Lead Generation</li><li>Campaign Optimization</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-icon">S</div>
+            <div class="card-heading"><h3>Social Media Marketing</h3><span>Working Knowledge</span></div>
+            <ul>
+              <li>Facebook Marketing</li><li>Instagram Marketing</li><li>Social Media Strategy</li><li>Content Planning</li>
+              <li>Audience Research</li><li>Engagement Strategy</li><li>Page Optimization</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal reveal-delay-1">
+            <div class="skill-icon">L</div>
+            <div class="card-heading"><h3>Lead Generation</h3><span>Working Knowledge</span></div>
+            <ul>
+              <li>Lead Generation Campaigns</li><li>Landing Page Strategy</li><li>Audience Research</li><li>Conversion Optimization</li>
+              <li>Retargeting</li><li>Campaign Analysis</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal reveal-delay-2">
+            <div class="skill-icon">✦</div>
+            <div class="card-heading"><h3>Digital Marketing Strategy</h3><span>Developing</span></div>
+            <ul>
+              <li>Marketing Research</li><li>Competitor Research</li><li>Audience Research</li><li>Campaign Planning</li>
+              <li>Funnel Strategy</li><li>Performance Analysis</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-heading split reveal">
+          <div>
+            <div class="section-label">Services</div>
+            <h2 id="services-title">Digital Marketing Services</h2>
+          </div>
+          <p>Clear, focused services for businesses that need stronger visibility, better targeting and structured digital campaigns.</p>
+        </div>
+
+        <div class="card-grid service-grid">
+          <article class="service-card reveal">
+            <span class="service-no">01</span><div class="service-icon">⌕</div>
+            <h3>SEO</h3>
+            <p>Improve your website's visibility in search engines through practical SEO research, optimization and strategy.</p>
+            <ul class="check-list"><li>Keyword Research</li><li>On-Page SEO</li><li>SEO Audit</li><li>Competitor Analysis</li><li>Content Optimization</li></ul>
+          </article>
+
+          <article class="service-card reveal reveal-delay-1">
+            <span class="service-no">02</span><div class="service-icon">Ads</div>
+            <h3>Google Ads</h3>
+            <p>Create and optimize Google Ads campaigns designed to reach relevant audiences and generate quality traffic or leads.</p>
+            <ul class="check-list"><li>Search Campaigns</li><li>Keyword Research</li><li>Ad Copy</li><li>Campaign Optimization</li><li>Conversion Tracking</li></ul>
+          </article>
+
+          <article class="service-card reveal reveal-delay-2">
+            <span class="service-no">03</span><div class="service-icon">M</div>
+            <h3>Meta Ads</h3>
+            <p>Run targeted Facebook and Instagram advertising campaigns using audience research, campaign testing and optimization.</p>
+            <ul class="check-list"><li>Facebook Ads</li><li>Instagram Ads</li><li>Audience Targeting</li><li>Retargeting</li><li>Lead Generation</li></ul>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="service-no">04</span><div class="service-icon">S</div>
+            <h3>Social Media Marketing</h3>
+            <p>Develop practical social media strategies that help businesses improve their online presence and audience engagement.</p>
+            <ul class="check-list"><li>Facebook</li><li>Instagram</li><li>Content Planning</li><li>Page Optimization</li><li>Audience Research</li></ul>
+          </article>
+
+          <article class="service-card reveal reveal-delay-1">
+            <span class="service-no">05</span><div class="service-icon">L</div>
+            <h3>Lead Generation</h3>
+            <p>Build digital campaigns focused on attracting relevant prospects and generating potential customers.</p>
+            <ul class="check-list"><li>Audience Research</li><li>Lead Campaigns</li><li>Funnel Strategy</li><li>Retargeting</li><li>Conversion Optimization</li></ul>
+          </article>
+
+          <article class="service-card reveal reveal-delay-2">
+            <span class="service-no">06</span><div class="service-icon">✦</div>
+            <h3>Digital Marketing Strategy</h3>
+            <p>Create practical digital marketing strategies based on business goals, target audiences and market research.</p>
+            <ul class="check-list"><li>Competitor Research</li><li>Audience Research</li><li>Marketing Strategy</li><li>Campaign Planning</li><li>Performance Analysis</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="experience" aria-labelledby="experience-title">
+      <div class="container two-col experience-layout">
+        <div class="section-heading reveal">
+          <div class="section-label">Experience</div>
+          <h2 id="experience-title">My Experience</h2>
+          <p>Practical digital marketing experience with an international client focus.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-tag">Digital Marketing</span>
+              <h3>2+ Years</h3>
+              <p>Practical experience in digital marketing, SEO, social media marketing, paid advertising and online campaign-related work.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal reveal-delay-1">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-tag">International Client Experience</span>
+              <h3>10+ Foreign Clients</h3>
+              <p>Experience communicating and working with clients from international markets on digital marketing-related projects.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading split reveal">
+          <div>
+            <div class="section-label">Selected Work</div>
+            <h2 id="projects-title">Featured Marketing Projects</h2>
+          </div>
+          <p>Project formats are ready for real case studies. No fabricated traffic, ranking, ROAS or conversion numbers are shown.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-visual seo-visual">
+              <div class="visual-title">SEARCH VISIBILITY</div>
+              <div class="seo-chart"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            </div>
+            <div class="project-body">
+              <span class="project-category">SEO</span>
+              <h3>SEO Project</h3>
+              <p>Website SEO work structured around research, optimization and search intent.</p>
+              <div class="tag-row"><span>Keyword Research</span><span>On-Page</span><span>Competitor Research</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-1">
+            <div class="project-visual ads-visual">
+              <div class="ad-window"><div></div><div></div><div></div></div>
+              <span class="ad-badge">SEARCH CAMPAIGN</span>
+            </div>
+            <div class="project-body">
+              <span class="project-category">Google Ads</span>
+              <h3>Google Ads Campaign</h3>
+              <p>Search campaign structure focused on targeting, ad copy and optimization.</p>
+              <div class="tag-row"><span>Search Ads</span><span>Ad Copy</span><span>Optimization</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-2">
+            <div class="project-visual meta-visual">
+              <div class="social-post"><span></span><b></b><i></i></div>
+              <span class="ad-badge">PAID SOCIAL</span>
+            </div>
+            <div class="project-body">
+              <span class="project-category">Meta Ads</span>
+              <h3>Meta Ads Campaign</h3>
+              <p>Facebook and Instagram campaign structure built around audience research and lead generation.</p>
+              <div class="tag-row"><span>Audience Targeting</span><span>Retargeting</span><span>Lead Gen</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual social-visual">
+              <div class="social-grid"><span></span><span></span><span></span><span></span></div>
+              <div class="social-caption">CONTENT • AUDIENCE • STRATEGY</div>
+            </div>
+            <div class="project-body">
+              <span class="project-category">Social Media</span>
+              <h3>Social Media Marketing</h3>
+              <p>Social presence planning with content structure, audience research and campaign strategy.</p>
+              <div class="tag-row"><span>Page Optimization</span><span>Content Planning</span><span>Strategy</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <div class="section-label">Workflow</div>
+          <h2 id="process-title">How I Work</h2>
+          <p>A simple six-step process from business understanding to clear recommendations.</p>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-step reveal"><span>01</span><h3>Research</h3><p>Understand the business, market and competitors.</p></article>
+          <article class="process-step reveal reveal-delay-1"><span>02</span><h3>Audience</h3><p>Identify the target audience and customer intent.</p></article>
+          <article class="process-step reveal reveal-delay-2"><span>03</span><h3>Strategy</h3><p>Build a practical digital marketing strategy.</p></article>
+          <article class="process-step reveal"><span>04</span><h3>Launch</h3><p>Launch SEO, Google Ads, Meta Ads or other relevant campaigns.</p></article>
+          <article class="process-step reveal reveal-delay-1"><span>05</span><h3>Optimize</h3><p>Analyze performance and continuously improve campaigns.</p></article>
+          <article class="process-step reveal reveal-delay-2"><span>06</span><h3>Report</h3><p>Present clear insights and recommendations.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tools" aria-labelledby="tools-title">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <div class="section-label">Toolkit</div>
+          <h2 id="tools-title">Tools & Platforms</h2>
+          <p>Tools and platforms relevant to my digital marketing workflow. No certifications are implied.</p>
+        </div>
+
+        <div class="tools-cloud reveal">
+          <span>Google Ads</span><span>Google Analytics</span><span>Google Search Console</span><span>Google Tag Manager</span>
+          <span>Meta Ads Manager</span><span>Facebook</span><span>Instagram</span><span>Keyword Research Tools</span>
+          <span>SEO Tools</span><span>Canva</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="results" aria-labelledby="results-title">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <div class="section-label">Overview</div>
+          <h2 id="results-title">Experience in Numbers</h2>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card reveal">
+            <strong data-counter="2" data-suffix="+">2+</strong>
+            <span>Years of Digital Marketing Experience</span>
+          </div>
+          <div class="stat-card reveal reveal-delay-1">
+            <strong data-counter="10" data-suffix="+">10+</strong>
+            <span>Foreign Clients</span>
+          </div>
+          <div class="stat-card reveal reveal-delay-2">
+            <strong>SEO</strong>
+            <span>Primary Specialization</span>
+          </div>
+          <div class="stat-card reveal">
+            <strong>Google + Meta</strong>
+            <span>Paid Advertising Platforms</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="why" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <div class="section-label">Working Style</div>
+          <h2 id="why-title">Why Work With Me?</h2>
+        </div>
+        <div class="card-grid why-grid">
+          <article class="why-card reveal"><span>01</span><h3>Practical Approach</h3><p>I focus on practical strategies that match the actual needs of a business.</p></article>
+          <article class="why-card reveal reveal-delay-1"><span>02</span><h3>Continuous Learning</h3><p>I continuously learn new marketing techniques, tools and platform updates.</p></article>
+          <article class="why-card reveal reveal-delay-2"><span>03</span><h3>Clear Communication</h3><p>I believe in simple, clear and professional communication.</p></article>
+          <article class="why-card reveal"><span>04</span><h3>Data-Informed Decisions</h3><p>I use research and campaign data to identify opportunities and improve marketing decisions.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="testimonials" aria-labelledby="testimonials-title">
+      <div class="container testimonial-layout">
+        <div class="section-heading reveal">
+          <div class="section-label">Testimonials</div>
+          <h2 id="testimonials-title">Client Feedback</h2>
+          <p>Verified client feedback will be added here.</p>
+        </div>
+
+        <div class="testimonial-slider reveal reveal-delay">
+          <article class="testimonial-card active">
+            <div class="quote-mark">“</div>
+            <p>Sample feedback: “Tahmid communicated clearly, understood the campaign goals, and delivered the work in a professional way.”</p>
+            <div class="testimonial-meta"><span class="avatar-placeholder">Sample</span><div><strong>Sample Client Feedback</strong><small>Sample text — replace with a verified client review before publishing.</small></div></div>
+          </article>
+          <article class="testimonial-card">
+            <div class="quote-mark">“</div>
+            <p>Your next verified client testimonial can be published here with the client's permission.</p>
+            <div class="testimonial-meta"><span class="avatar-placeholder">Client</span><div><strong>Verified Client Review</strong><small>Replace this placeholder with real client feedback.</small></div></div>
+          </article>
+          <div class="slider-controls">
+            <button type="button" id="prevTestimonial" aria-label="Previous testimonial">←</button>
+            <span id="testimonialIndex">1 / 2</span>
+            <button type="button" id="nextTestimonial" aria-label="Next testimonial">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-layout">
+        <div class="section-heading reveal">
+          <div class="section-label">FAQ</div>
+          <h2 id="faq-title">Frequently Asked Questions</h2>
+          <p>Clear answers about my digital marketing services and availability.</p>
+        </div>
+
+        <div class="faq-list reveal reveal-delay">
+          <button class="faq-item" type="button" aria-expanded="false">
+            <span>What digital marketing services do you provide?</span><b>+</b>
+            <div class="faq-answer">I focus on SEO, Google Ads, Meta Ads, social media marketing, lead generation and digital marketing strategy.</div>
+          </button>
+          <button class="faq-item" type="button" aria-expanded="false">
+            <span>Do you work with international clients?</span><b>+</b>
+            <div class="faq-answer">Yes. I have experience working with foreign clients.</div>
+          </button>
+          <button class="faq-item" type="button" aria-expanded="false">
+            <span>Do you provide SEO services?</span><b>+</b>
+            <div class="faq-answer">Yes. My SEO services include keyword research, on-page optimization, competitor research and SEO strategy.</div>
+          </button>
+          <button class="faq-item" type="button" aria-expanded="false">
+            <span>Do you manage Google Ads?</span><b>+</b>
+            <div class="faq-answer">Yes. I can work on Google Ads campaign setup, keyword research, ad copy and campaign optimization.</div>
+          </button>
+          <button class="faq-item" type="button" aria-expanded="false">
+            <span>Do you manage Facebook and Instagram Ads?</span><b>+</b>
+            <div class="faq-answer">Yes. Meta Ads is one of my main areas of digital marketing focus.</div>
+          </button>
+          <button class="faq-item" type="button" aria-expanded="false">
+            <span>How can I contact you?</span><b>+</b>
+            <div class="faq-answer">Use the contact form or email me directly.</div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-shell">
+          <div class="contact-copy reveal">
+            <div class="section-label">Contact</div>
+            <h2 id="contact-title">Let's Grow Your Business Online</h2>
+            <p>Have a digital marketing project or collaboration in mind? Let's talk.</p>
+
+            <div class="contact-list">
+              <a class="contact-item" href="mailto:tahmidhasantaif760@gmail.com">
+                <span class="contact-icon">@</span><span><small>Email</small><strong data-config="EMAIL">tahmidhasantaif760@gmail.com</strong></span>
+              </a>
+              <div class="contact-item">
+                <span class="contact-icon">⌖</span><span><small>Location</small><strong data-config="LOCATION">Kishoreganj, Bangladesh</strong></span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">●</span><span><small>Availability</small><strong>Open to Digital Marketing Opportunities</strong></span>
+              </div>
+            </div>
+
+            <div class="social-row" id="contactSocials" aria-label="Contact social links"></div>
+          </div>
+
+          <form class="contact-form reveal reveal-delay" id="contactForm" novalidate>
+            <div class="form-row">
+              <label>Name<input name="name" type="text" autocomplete="name" required maxlength="80"></label>
+              <label>Email<input name="email" type="email" autocomplete="email" required maxlength="120"></label>
+            </div>
+            <label>Subject<input name="subject" type="text" maxlength="120"></label>
+            <label>Message<textarea name="message" rows="7" required maxlength="1200"></textarea></label>
+
+            <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+            <button class="btn btn-primary submit-btn" type="submit" id="submitButton">
+              <span>Send Message</span><span class="submit-spinner" aria-hidden="true"></span>
+            </button>
+            <p class="form-note">The form is ready for a backend endpoint. No email is claimed to be sent until <code>CONTACT_FORM_ENDPOINT</code> is configured in <code>js/config.js</code>.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main">
+      <div class="footer-brand">
+        <span class="brand-mark">TH</span>
+        <div><strong data-config="NAME">Tahmid Hasan</strong><span>Digital Marketer</span><small>SEO • Google Ads • Meta Ads</small></div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-contact">
+        <a href="mailto:tahmidhasantaif760@gmail.com" data-config-link="EMAIL">tahmidhasantaif760@gmail.com</a>
+        <span data-config="LOCATION">Kishoreganj, Bangladesh</span>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Tahmid Hasan. All rights reserved.</span>
+      <span>Built for digital marketing.</span>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float disabled" id="whatsappButton" href="#" target="_blank" rel="noopener" aria-label="Chat with Tahmid on WhatsApp" title="Chat With Me">
+    <span>◔</span>
+  </a>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">↑</button>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/contact.js"></script>
+  <script type="application/ld+json" id="personSchema">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Tahmid Hasan",
+    "jobTitle":"Digital Marketer",
+    "email":"mailto:tahmidhasantaif760@gmail.com",
+    "address":{"@type":"PostalAddress","addressLocality":"Kishoreganj","addressCountry":"BD"},
+    "knowsAbout":["Digital Marketing","SEO","Google Ads","Meta Ads","Facebook Ads","Instagram Ads","Social Media Marketing","Lead Generation","Digital Marketing Strategy"]
+  }
+  </script>
+</body>
+</html>
